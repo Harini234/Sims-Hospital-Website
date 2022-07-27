@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="girl.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+<style>
+  h2 {text-align: center;}
+</style>
+<body>
+    <nav>
+      
+        <h1>SIMS</h1>
+        <ul class="navigation">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#food" class="nav-link">Diet</a></li>
+          <li><a href="#menu" class="nav-link">Food</a></li>
+          <li><a href="nutrition.html" target="_blank" class="nav-link">Personalized Nutritionist</a></li>
+          
+          
+         
+     
+        </ul>
+        
+        </button>
+    </nav> 
+
+<!-- main banner -->
+<section class="bgimage" id="home">
+  
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+            
+        </div>
+        </div>
+    </div>
+</section>
+
+<!------Menu------>
+<section class="2ndpage" id="food">
+    <div class="main">
+      <br><br><br><h1>Diet chart</h1>
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+            
+              <div class="card_image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-WqIuVxGhvvNSK3-L9DbP3SLavhTXizRTrQ&usqp=CAU"></div>
+              <div class="card_content">
+                <h2 class="card_title">Diabetes</h2>
+                <p class="card_text">Normal fasting blood glucose -- or blood sugar -- is between 70 and 100</p>
+                
+                <button style="background-color: pink; border: solid;"  value="Download PDF File" onclick="window.open('Diabetes.pdf')">READ MORE </button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ0fm4rn5sf918o8_d_8drrIQzCx2f17ZpCw&usqp=CAU"></div>
+              <div class="card_content">
+                <h2 class="card_title">Cholesterol</h2>
+                <p class="card_text">type of Cholesterol  Healthy Leve
+                <br>Men aged 20 years and older --  125 mg/dL to 200 mg/dL<br>
+               Women aged 20 years and older  Total cholesterol 125 mg/dL to 200 mg/dL</p>
+               <button style="background-color: pink; border: solid;" value="Download PDF File" onclick="window.open('cholestrol.pdf')">READ MORE </button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYzWIJ8-beQDoBhxRuIDRM3BSW3ZWc8iYcjumw-5CkEAK3-PsF4wJiwKb75iA6w4usfTc&usqp=CAU"></div>
+              <div class="card_content">
+                <h2 class="card_title">Blood pressure</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <button style="background-color: pink; border: solid;"  value="Download PDF File" onclick="window.open('BP.pdf')"> READ MORE </button>
+              </div>
+            </div>
+          </li>
+          
+      </section>
+
+<!----3rd page----->
+<section class="3rdpage" id="menu">
+  <div id="slider">
+  <br><br><br><h1>Food</h1><br>
+  <input type="radio" name="slider" id="slide1" checked>
+  <input type="radio" name="slider" id="slide2">
+  <input type="radio" name="slider" id="slide3">
+  <input type="radio" name="slider" id="slide4">
+  <div id="slides">
+     <div id="overflow">
+        <div class="inner">
+           <div class="slide slide_1">
+              <div class="slide-content">
+                <a href="https://www.healthline.com/nutrition/weight-loss-breakfast-foods">Breakfast</a>
+              </div>
+           </div>
+           <div class="slide slide_2">
+              <div class="slide-content">
+                <h2>Lunch</h2>
+              </div>
+           </div>
+           <div class="slide slide_3">
+              <div class="slide-content">
+                 <h2>Dinner</h2>
+              </div>
+           </div>
+           <div class="slide slide_4">
+              <div class="slide-content">
+                 <h2><a href="https://www.healthkart.com/connect/healthy-breakfast-drinks-to-add-to-your-breakfast/">Beverages</a></h2>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+  <div id="controls">
+     <label for="slide1"></label>
+     <label for="slide2"></label>
+     <label for="slide3"></label>
+     <label for="slide4"></label>
+  </div>
+  <div id="bullets">
+     <label for="slide1"></label>
+     <label for="slide2"></label>
+     <label for="slide3"></label>
+     <label for="slide4"></label>
+  </div>
+  </div>
+</section>
+</body>
+</html>

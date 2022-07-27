@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <link rel="stylesheet" href="Overview.css">
+    <style>
+    #Home::before
+    {
+        content:"";
+        position: absolute;
+        background: url('https://i.pinimg.com/originals/b8/23/e3/b823e38cc01fdb9278b6f7faa2feda6d.gif') no-repeat center center/cover;
+        height:1000px;
+        width:100%;
+        top:0px;
+        left:0px;
+        z-index: -1;
+        opacity:0.89;
+        background-size: 100% 100%;
+        animation: slider 9s infinite linear;
+    }
+    @keyframes slider
+    {
+        0%{background-image: url('https://i.pinimg.com/originals/4b/22/93/4b229396885b90ea126258e5d19370ec.gif');}
+        35%{background-image: url('https://i.pinimg.com/originals/33/ba/21/33ba21ccda561739ab950d66e5616b82.gif');}
+        75%{background-image: url('https://i.pinimg.com/originals/b8/23/e3/b823e38cc01fdb9278b6f7faa2feda6d.gif');}
+    }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="SIMS-Logo.png" alt="sims">
+        </div>
+        <ul>
+            <li class="item"><a href="#Home">Home</a></li>
+            <li class="item"><a href="https://simshospitals.com/">AboutUs</a></li>
+            <li class="item"><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<section id="Home">
+    <div class="content">
+        <h1 style="font-size: 60px;">LET'S KNOW ABOUT YOUR HEALTH</h1>
+        <h3>Explore more</h3>
+        <div>
+            <a href="check.html">
+            <button type="button">CHECK YOUR SYMPTOMS</button>
+            </a>
+            <a href="girl.html">
+            <button type="button">CHECK YOUR DIET</button>
+            </a>
+        </div>
+</section>
